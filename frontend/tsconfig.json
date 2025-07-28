@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "noEmit": true,
+    "allowJs": true,
+    "checkJs": false,
+    "jsx": "preserve",
+    "module": "ESNext",
+    "target": "ESNext",
+    "moduleResolution": "bundler",
+    "strict": false,
+    "types": ["vite/client"]
+  },
+  "include": ["src/**/*.js", "src/**/*.vue", "env.d.ts"],
+  "exclude": ["node_modules"],
+  "vueCompilerOptions": {
+    "skipTemplateCodegen": false,
+    // "globalTypesPath": null
+  }
+}

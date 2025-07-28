@@ -65,6 +65,7 @@ exports.updateCard = async (req, res) => {
   }
 };
 
+// not necessary
 exports.deleteCard = async (req, res) => {
   const { id } = req.params;
   try {
